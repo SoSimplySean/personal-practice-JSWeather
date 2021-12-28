@@ -1,0 +1,35 @@
+@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Noto Sans", sans-serif;
+}
+
+body {
+  margin: 0;
+  background-image: url(../img/background.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-container {
+  display: flex;
+  justify-content: center;
+}
+
+.display {
+  display: inline-block;
+  margin: 0 auto !important;
+}
+
+.input-group {
+  max-width: 200px;
+  margin: 0 auto;
+}
